@@ -74,14 +74,39 @@
     color: #be3144;
 }
 
+#projects{
+    text-align: center;
+    justify-content: center;
+    background-color: #45567d;
+}
 
+#projects h2{
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 4rem;
+}
 
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem auto 0;
+}
 
+.project{
+    max-width: 400px;
+    margin: 1rem;
+}
 
+.project img{
+    max-width: 100%;
+}
 
-
-
-
+.project p{
+    color: white;
+    font-size: 2rem;
+}
 
 .contact{
     text-align: center;
